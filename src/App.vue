@@ -5,7 +5,6 @@
             <input id="1-1" type="radio" name="q1" value="Эндокринолог" v-model="option1"><label for="1-1">Усталость</label><br>
             <input id="1-2" type="radio" name="q1" value="Эндокринолог" v-model="option1"><label for="1-2">Апатия</label>
         </ul>
-        <!-- <ul>{{ option1 }}</ul> -->
         <button type="button" v-on:click="options.push(option1)" @click="check">Дальше</button>
     </div>
 
@@ -141,7 +140,6 @@
             return{
                 options: [],
                 status: 1,
-                // option1: '',
                 missing: 0
             }
         },
